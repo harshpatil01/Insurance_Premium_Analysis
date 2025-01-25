@@ -15,7 +15,7 @@ This repository contains a comprehensive analysis and predictive modeling projec
 - Create an interactive dashboard for predictions and visual insights.
 
 ### Dataset
-- **Source**: [Kaggle](https://www.kaggle.com/mirichoi0218/insurance) (Insurance dataset)
+-**Source**:ExcelR
 - **Size**: 1338 rows and 7 columns
 - **Features**:
   - `age`: Age of the individual.
