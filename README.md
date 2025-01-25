@@ -1,5 +1,3 @@
-# Insurance_Premium_Analysis
-
 # Insurance Prediction Analysis and Dashboard
 
 This repository contains a comprehensive analysis and predictive modeling project aimed at forecasting insurance expenses based on personal attributes such as age, BMI, smoking status, and region. The project uses multiple machine learning techniques, exploratory data analysis (EDA), and a user-friendly interactive dashboard built with Streamlit.
