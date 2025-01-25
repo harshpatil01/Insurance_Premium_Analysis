@@ -138,8 +138,6 @@ We implemented and evaluated the following models:
 ## Authors
 - Harsh Patil
 
----
 
-## License
-This project is licensed under the MIT License.
+---
 
