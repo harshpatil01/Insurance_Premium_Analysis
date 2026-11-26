@@ -1,5 +1,7 @@
 # Insurance Prediction Analysis and Dashboard
 
+> **Context:** Data science internship project at Ai Variant (2024–2025), built on a public dataset. Shared with no confidential company data.
+
 This repository contains a comprehensive analysis and predictive modeling project aimed at forecasting insurance expenses based on personal attributes such as age, BMI, smoking status, and region. The project uses multiple machine learning techniques, exploratory data analysis (EDA), and a user-friendly interactive dashboard built with Streamlit.
 
 ---
@@ -13,7 +15,7 @@ This repository contains a comprehensive analysis and predictive modeling projec
 - Create an interactive dashboard for predictions and visual insights.
 
 ### Dataset
--**Source**:ExcelR
+- **Source**: Provided by ExcelR as part of the Data Science course. It is the same as the public [Medical Cost Personal Dataset on Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance).
 - **Size**: 1338 rows and 7 columns
 - **Features**:
   - `age`: Age of the individual.
@@ -97,30 +99,28 @@ We implemented and evaluated the following models:
 ---
 
 ## Repository Contents
-- **`insurance.csv`**: The original dataset.
-- **`notebook.ipynb`**: The Jupyter Notebook containing the entire analysis and modeling workflow.
-- **`app.py`**: The Streamlit application code for the interactive dashboard.
-- **`presentation.pptx`**: PowerPoint slides summarizing the project.
-- **`README.md`**: This file detailing the project.
+All project files are in the `Insurance_Premium_Analysis/` folder:
+- **`insurance.csv`**: The dataset.
+- **`Insurance_Analysis.ipynb`**: The Jupyter Notebook with the full analysis and modelling workflow.
+- **`app.py`**: The Streamlit dashboard.
+- **`Insurance_Prediction_Model_Presentation.pdf`**: Slides summarising the project.
+- **`requirements.txt`**: Python dependencies.
 
 ---
 
 ## How to Run the Project
 
 ### Prerequisites
-- Python 3.7+
-- Install required libraries:
-  ```bash
-  pip install -r requirements.txt
-  ```
+- Python 3.9+
 
 ### Run the Streamlit App
-1. Navigate to the project directory.
-2. Run the following command:
-   ```bash
-   streamlit run app.py
-   ```
-3. Open the displayed URL in your web browser.
+```bash
+git clone https://github.com/harshpatil01/Insurance_Premium_Analysis.git
+cd Insurance_Premium_Analysis/Insurance_Premium_Analysis
+pip install -r requirements.txt
+streamlit run app.py
+```
+Then open the URL Streamlit prints in your browser.
 
 ---
 
@@ -128,8 +128,9 @@ We implemented and evaluated the following models:
 - **Key Findings**:
   - Smoking is the most significant factor influencing medical expenses.
   - Random Forest achieved the best prediction performance with an R² of 0.928.
-- **Use Case**:
-  - Predict medical expenses for insurance underwriting or personal expense forecasting.
+- **Caveats**:
+  - R² values come from a single train/test split on a small dataset (1,338 rows), so they may vary with a different split.
+  - This is a learning project on a public dataset, not a model used for real underwriting decisions.
 
 ---
 
@@ -139,3 +140,7 @@ We implemented and evaluated the following models:
 
 ---
 
+
+## License
+
+Code is released under the [MIT License](LICENSE). Datasets keep their original source licences.
