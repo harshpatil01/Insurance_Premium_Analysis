@@ -140,3 +140,7 @@ Then open the URL Streamlit prints in your browser.
 
 ---
 
+
+## License
+
+Code is released under the [MIT License](LICENSE). Datasets keep their original source licences.
